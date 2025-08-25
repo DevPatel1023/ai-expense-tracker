@@ -35,8 +35,10 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+          <div className='min-h-screen bg-background'>
           <Navbar />
           {children}
+          </div>
         </body>
       </html>
     </ClerkProvider>
