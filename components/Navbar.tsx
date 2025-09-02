@@ -28,7 +28,7 @@ export default function Navbar() {
               onClick={closeMobileMenu}
             >
               <div className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10  rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 bg-amber-500">
-                <Brain className="h-5 w-5 text-primary-foreground" />
+                <span className='text-white text-lg'><Brain className="h-5 w-5 text-primary-foreground" /></span>
               </div> 
               <span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold bg-clip-text text-black hover:text-chart-1 transition-colors duration-500">
                 <span>ExpenseAI</span>
