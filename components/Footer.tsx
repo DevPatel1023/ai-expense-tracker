@@ -1,5 +1,8 @@
 import { Brain } from "lucide-react";
 import Link from "next/link";
+import { BiCategory } from "react-icons/bi";
+import { MdAnalytics } from "react-icons/md";
+import { RiRobot2Fill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -68,19 +71,19 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-600  text-sm">
                 <div className="w-5 h-5  rounded-md flex items-center justify-center shadow-sm">
-                  <span className="text-white text-xs">🤖</span>
+                  <RiRobot2Fill size='w-6 h-6' className="text-white bg-amber-400" />
                 </div>
                 AI-Powered Insights
               </div>
               <div className="flex items-center gap-3 text-gray-600 text-sm">
                 <div className="w-5 h-5 rounded-md flex items-center justify-center shadow-sm">
-                  <span className="text-white text-xs">✨</span>
+                  <BiCategory size='w-5 h-5' className="text-white bg-amber-400" />
                 </div>
                 Smart Categorization
               </div>
               <div className="flex items-center gap-3 text-gray-600  text-sm">
                 <div className="w-5 h-5 rounded-md flex items-center justify-center shadow-sm">
-                  <span className="text-orange text-xs">📊</span>
+                  <MdAnalytics size='h-6 w-6' className="bg-orange-400 text-white" />
                 </div>
                 Analytics Dashboard
               </div>
