@@ -104,34 +104,32 @@ const AboutPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
             <div className="group relative bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-200 hover:-translate-y-1">
-  {/* Background Gradient Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-amber-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+              {/* Background Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-amber-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
 
-  {/* Foreground Content */}
-  <div className="relative z-10">
-    {/* Icon */}
-    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 via-amber-500 to-yellow-500 flex items-center justify-center mb-6 transition-colors duration-200">
-      <span className="text-black text-xl group-hover:text-white transition-colors duration-200">
-        🤖
-      </span>
-    </div>
+              {/* Foreground Content */}
+              <div className="relative z-10">
+                {/* Icon */}
+                <div className="w-12 h-12 bg-gradient-to-br from-orange-500 via-amber-500 to-yellow-500 flex items-center justify-center mb-6 transition-colors duration-200">
+                  <span className="text-black text-xl group-hover:text-white transition-colors duration-200">
+                    🤖
+                  </span>
+                </div>
 
-    {/* Title */}
-    <h3 className="text-xl font-bold mb-4 text-black group-hover:text-white transition-colors duration-200">
-      AI-Powered Insights
-    </h3>
+                {/* Title */}
+                <h3 className="text-xl font-bold mb-4 text-black group-hover:text-white transition-colors duration-200">
+                  AI-Powered Insights
+                </h3>
 
-    {/* Description */}
-    <p className="text-gray-600 group-hover:text-white leading-relaxed transition-colors duration-200">
-      Get intelligent analysis of your spending patterns with personalized AI
-      recommendations and automated category suggestions that learn from your
-      behavior.
-    </p>
-  </div>
-</div>
-
+                {/* Description */}
+                <p className="text-gray-600 group-hover:text-white leading-relaxed transition-colors duration-200">
+                  Get intelligent analysis of your spending patterns with
+                  personalized AI recommendations and automated category
+                  suggestions that learn from your behavior.
+                </p>
+              </div>
+            </div>
 
             <div className="group relative bg-white/80  backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-gray-100/50  hover:shadow-2xl transition-all duration-200 hover:-translate-y-1">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-500 to-yellow-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
@@ -139,10 +137,10 @@ const AboutPage = () => {
                 <div className="w-12 h-12 bg-gradient-to-br from-amber-500 via-yellow-500 to-orange-500 rounded-xl flex items-center justify-center shadow-lg mb-6 text-black hover:text-white">
                   <span className="text-white text-xl">✨</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4 ">
+                <h3 className="text-xl font-bold mb-4 text-black group-hover:text-white transition-colors duration-200">
                   Smart Categorization
                 </h3>
-                <p className="text-gray-600  leading-relaxed">
+                <p className="text-black group-hover:text-white transition-colors duration-200  leading-relaxed">
                   Let our AI automatically categorize your expenses with 99%
                   accuracy and provide tailored recommendations to enhance your
                   budget management effortlessly.
@@ -156,10 +154,10 @@ const AboutPage = () => {
                 <div className="w-12 h-12 bg-gradient-to-br from-yellow-500 via-orange-500 to-amber-500 rounded-xl flex items-center justify-center shadow-lg mb-6">
                   <span className="text-white text-xl">📊</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4 text-gray-900 ">
+                <h3 className="text-xl font-bold mb-4  text-black group-hover:text-white transition-colors duration-200">
                   Intelligent Dashboard
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className=" leading-relaxed text-black group-hover:text-white transition-colors duration-200">
                   Experience a modern, AI-enhanced interface with real-time
                   insights, interactive financial analytics, and beautiful
                   visualizations that make sense of your data.
@@ -233,9 +231,7 @@ const AboutPage = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-3 h-3 bg-yellow-500  rounded-full"></div>
-                  <div className="text-white  font-medium">
-                    Global Impact
-                  </div>
+                  <div className="text-white  font-medium">Global Impact</div>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
