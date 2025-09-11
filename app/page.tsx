@@ -1,9 +1,9 @@
-// import AddNewRecord from '@/components/AddNewRecord';
-// import AIInsights from '@/components/AIInsights';
-// import ExpenseStats from '@/components/ExpenseStats';
+import AddNewRecord from '@/components/AddNewRecord';
+import AIInsights from '@/components/AIInsights';
+import ExpenseStats from '@/components/ExpenseStats';
 import Guest from '@/components/Guest';
-// import RecordChart from '@/components/RecordChart';
-// import RecordHistory from '@/components/RecordHistory';
+import RecordChart from '@/components/RecordChart';
+import RecordHistory from '@/components/RecordHistory';
 import { currentUser } from '@clerk/nextjs/server';
 
 export default async function HomePage() {
